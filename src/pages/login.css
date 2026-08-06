@@ -1,0 +1,10 @@
+.bg-gradient-bank {
+  background: #001024; /* Color de respaldo */
+  background: linear-gradient(
+    170deg, 
+    rgba(0, 16, 36, 0.85) 0%, 
+    rgba(9, 9, 121, 1) 28%, 
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white; /* Forzamos que el texto sea blanco por defecto sobre este fondo */
+}
