@@ -236,10 +236,10 @@ export default function TransactionHistory({
             ) : (
               <tr key={index}>
                 <td>{row.name}</td>
-                <td>{row.outBs}</td>
-                <td>{row.inBs}</td>
-                <td>{row.outSus}</td>
-                <td>{row.inSus}</td>
+                <td>{(row.outBs).toFixed(2) || 0}</td>
+                <td>{(row.inBs).toFixed(2) || 0}</td>
+                <td>{(row.outSus).toFixed(2) || 0}</td>
+                <td>{(row.inSus).toFixed(2) || 0}</td>
                 <td>
                   <button
                     className="btn btn-sm btn-warning me-2"
@@ -262,16 +262,16 @@ export default function TransactionHistory({
               <strong>Total</strong>
             </td>
             <td>
-              <strong>{totals.outBs}</strong>
+              <strong>{(totals.outBs).toFixed(2)}</strong>
             </td>
             <td>
-              <strong>{totals.inBs}</strong>
+              <strong>{(totals.inBs).toFixed(2)}</strong>
             </td>
             <td>
-              <strong>{totals.outSus}</strong>
+              <strong>{(totals.outSus).toFixed(2)}</strong>
             </td>
             <td>
-              <strong>{totals.inSus}</strong>
+              <strong>{(totals.inSus).toFixed(2)}</strong>
             </td>
             <td></td>
           </tr>
