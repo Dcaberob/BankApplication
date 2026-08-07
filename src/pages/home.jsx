@@ -24,10 +24,10 @@ export default function Home() {
       <div className="row justify-content-center align-items-center">
         <div className="col-md-7 mt-3 d-flex justify-content-center align-items-center">
           <img
-            src="/files/ADI1.jpg"
+            src="/files/ADI1.jpeg"
             alt="Operación Bancaria"
             className="img-fluid rounded shadow"
-            style={{ maxHeight: "500px" }}
+            style={{ maxHeight: "450px" }}
           />
         </div>
         <div className="col-md-5">
